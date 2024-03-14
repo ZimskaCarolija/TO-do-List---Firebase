@@ -1,0 +1,124 @@
+body {
+    background-color: #FFFAD7;
+}
+
+.centriraj {
+    text-align: center;
+}
+
+.Unos {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.Unos div {
+    display: inline-block;
+    width: 100px;
+}
+
+.Unos input {
+    width: 40%;
+    border: 3px solid #FF90BB;
+    border-radius: 20px;
+    margin-left: 10%;
+    padding: 5px;
+}
+
+h1 {
+    color: #FF90BB;
+}
+
+h2 {
+    color: #FF2171;
+}
+
+.container {
+    margin-top: 7%;
+}
+
+.Login {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    position: absolute;
+    width: 80%;
+    height: 80vh;
+    left: 10%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFE4A7;
+    border: 3px solid #FF2171;
+    border-radius: 20px;
+}
+
+.Dugme {
+    margin-top: 30px;
+    padding: 10px;
+    border: 4px solid transparent;
+    border-radius: 20px;
+    background-color: #FF90BB;
+    color: #FFFAD7;
+    min-width: 100px;
+    max-width: 150px;
+}
+
+.Dugme:hover {
+    border-radius: 20px;
+    border: 4px solid #FF90BB;
+    background-color: #FFFAD7;
+    color: #FF90BB;
+}
+
+.Dugmici {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.Dugmici button {
+    white-space: nowrap;
+}
+
+#Lista {
+    display: none;
+}
+
+.Stavka {
+    background-color: #FFE4A7;
+    padding: 10px 0px;
+    border: 2px solid #FF2171;
+    border-radius: 25px;
+    color: #FF2171;
+    margin-top: 4%;
+}
+
+.Stavka div,
+input {
+    display: inline-block;
+    margin: 1% 4%;
+}
+
+input {
+    border-radius: 25px;
+    padding: 5px;
+    border-color: #FF2171;
+    color: #FF2171;
+}
+
+.StavkaDugmici button {
+    display: inline;
+}
+
+.Dugme {
+    margin-left: 20px;
+}
+
+label {
+    color: #FF90BB;
+}
+
+.ListaS {
+    margin-bottom: 100px;
+}

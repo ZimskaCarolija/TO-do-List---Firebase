@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stil.css">
+    <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-auth-compat.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h1 class="centriraj">To Do List</h1>
+    <div class="centriraj Login" id="Login">
+        <h2 class="centriraj">User Autentification</h2>
+        <div class="Unos">
+            <div>Email:</div><input type="email" id="Email"></div>
+        <div class="Unos">
+            <div>Password :</div><input type="password" id="Password1"></div>
+        <div class="Dugmici">
+            <button class="Dugme" onclick="Login()">Log in</button>
+            <button class="Dugme" onclick="Reg()">Register in</button>
+        </div>
+    </div>
+    <div class="container">
+        <h2 id="InfoUser" class=" centriraj"></h2>
+    </div>
+    <div class="container" id="Lista">
+        <h2>List:</h2>
+        <div class="StavkaUnos"><label>Name : </label><input type="text" id="NazivUnos"></div>
+        <div><label>Datum : </label><input type="date" id="DatumUnos"></div>
+        <div class="Dugme centriraj" onclick="UnesiStavku()">Unesi</div>
+    </div>
+    <div class="container centriraj" id="ListaS">
+
+    </div>
+
+</body>
+
+
+
+</html>
