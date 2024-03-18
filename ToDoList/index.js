@@ -1,5 +1,5 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyB_FxtXZg99o9XZ6tVMqPJRNIzjrR9i4ks",
+    
     authDomain: "todolist-76e59.firebaseapp.com",
     projectId: "todolist-76e59",
     storageBucket: "todolist-76e59.appspot.com",
